@@ -6,7 +6,7 @@ import UserProfilePage from './pages/UserProfilePage';
 import ProtectedRoutes from './auth/ProtectedRoutes';
 import ManageRestaurantPage from './pages/ManageRestaurantPage';
 import SearchPage from './pages/SearchPage';
-import DetailPage from './pages/DetailsPage';
+import DetailPage from './pages/DetailPage';
 
 const App = () => {
   return (
