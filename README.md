@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# mern-food-ordering-app-frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+Welcome to the frontend repository of the MERN Food Ordering App project! This repository contains the codebase for the frontend of our food ordering application. Built with React, TypeScript, and Tailwind CSS, this frontend provides a user-friendly interface for customers to browse restaurants, manage their carts, and place orders seamlessly.
 
-Currently, two official plugins are available:
+## Features
+1. User Authentication: Users can sign up, log in, and manage their profiles securely using Auth0 authentication.
+   
+2. Restaurant Browsing: Browse through a variety of restaurants with advanced search, sorting, filtering, and pagination features.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. Cart Management: Add items to the cart, review selections, and proceed to checkout with Stripe integration.
 
-## Expanding the ESLint configuration
+4. Live Order Tracking: Track the status of orders in real-time for a transparent and engaging experience.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## TechStack
+1. React: Frontend library for building user interfaces.
 
-- Configure the top-level `parserOptions` property like this:
+2. TypeScript: Adds static typing to JavaScript for improved code quality.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+3. Tailwind CSS: Utility-first CSS framework for styling.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+4. React Hook Form: Library for building flexible and performant forms.
+
+## External Services
+1. Auth0: Authentication and authorization service for user management.
+
+2. Stripe: Payment processing service for secure transactions.
